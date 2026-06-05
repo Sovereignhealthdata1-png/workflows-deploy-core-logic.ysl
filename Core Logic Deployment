@@ -35,6 +35,11 @@ jobs:
     - name: Deploy to Azure Function
       uses: azure/functions-action@v1
       with:
-        app-name: 'func-core-logic-prod'
+        app-name: 'pilot-sovereign'
         package: './output'
+(NuGet Packages):
+Microsoft.Azure.Functions.Worker
+Microsoft.Azure.Functions.Worker.Extensions.Http
+Microsoft.Data.SqlClient
+SystemIdentityModel.Tokens.Jwt.
 
