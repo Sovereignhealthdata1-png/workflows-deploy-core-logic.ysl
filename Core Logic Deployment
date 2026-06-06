@@ -39,3 +39,6 @@ run: |
        with:
   app-name: 'pilot-sovereign'
   package: './output'
+git add .
+git commit -m "Modularize Azure function..."
+git push origin main
