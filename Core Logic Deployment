@@ -25,7 +25,7 @@ jobs:
 
       - name: 'Build and Publish C# Project'
         run: |
-          dotnet publish core-logic/Deploy-core-logic_pilot-sovereign.csproj \
+          dotnet publish core-logic/.net-sovereign.csproj \
             --configuration Release \
             --output ./cs-output \
             --runtime win-x86
@@ -48,3 +48,4 @@ jobs:
           app-name: 'pilot-sovereign'
           package: './cs-output'
           resource-group: 'your-resource-group'
+    
